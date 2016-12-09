@@ -4,10 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Infrastructure as Code</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/sky.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,15 +24,33 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-transition="slide-in fade-out">
-					<h2>Infrastructure as Code</h2>
+				<section data-transition="slide">
+					<h2 id="page-title">Infrastructure as Code</h2>
 					<h3>From Zero to Production</h3>
 				</section>
-				<section data-transition="slide-in fade-out">
+				<section data-transition="slide">
 					<h2>Presenter</h2>
-					<h3>Fernando Torres </h3>
-					<h4></h4>
-				</section>				
+					<h3>Fernando Torres</h3>
+					<p>ftorres@avenuecode.com</p>
+				</section>
+				<section data-transition="slide">
+					<h2>Immutable Infrastructure</h2>
+					<p>
+						Once you instantiate something,	you never change it. 
+						Instead, you replace it with another instance to make changes or 
+						ensure proper behavior
+					</p>
+				</section>
+				<section>
+					<h2>Tools Used in This Demo</h2>
+					<ul>
+						<li>Automated Infrastructure Tool <span class="fragment fade-in"><mark>Chef</mark></span></li>
+						<li>Code Versioning <span class="fragment fade-in">Git</span></li>
+						<li>Repository and CI Pipeline <span class="fragment fade-in">GitLab</span></li>
+						<li>Image Building and Deployment <span class="fragment fade-in">GitLab</span></li>
+						<li>
+					</ul>
+				</section>																							
 			</div>
 		</div>
 		<script src="lib/js/head.min.js"></script>
