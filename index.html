@@ -36,7 +36,16 @@
 				</section>
 				<section data-transition="fast">
 					<h2>Audience</h2>
-				</section>				
+				</section>
+				<section data-transition="fast">
+					<h2>Setting Expectations</h2>
+					<ul>
+						<li>It's not about tools</li>						
+						<li>It's not about teaching first steps</li>
+						<li>It's not about digging theory</li>
+						<li>It's all about sharing experiences and arouse curiosity</li>
+					</ul>					
+				</section>								
 				<section data-transition="fast">
 					<h2>Immutable Infrastructure</h2>
 					<p>
@@ -82,22 +91,38 @@
 				<section data-transition="fast">
 					<h2>Lab 1 - Creating a Cookbook</h2>
 					<script type="text/javascript" src="https://asciinema.org/a/dr7n3z5nh2ehtcsq3ts34jm16.js" id="asciicast-dr7n3z5nh2ehtcsq3ts34jm16" data-speed="1.5" data-theme="tango" async></script>
+					<small>
+						<a href="https://docs.chef.io/quick_start.html" target="_blank">chef quick start</a>
+					</small>
 				</section>
 				<section data-transition="fast">
 					<h2>Lab 2 - Configuring the Kitchen</h2>
 					<script type="text/javascript" src="https://asciinema.org/a/86djtrjnkjkhs60m028zty76z.js" id="asciicast-86djtrjnkjkhs60m028zty76z" data-speed="1.5" data-theme="tango" async></script>
+					<smal>
+						<a href="https://gist.github.com/nandotorres/64530639b83fd1cad9864a924d9b01af" target="_blank">gist</a> |
+						<a href="http://kitchen.ci/" target="_blank">kitchen.ci</a> |
+						<a href="https://github.com/test-kitchen/kitchen-docker" target="_blank">kitchen-docker</a>
+					</small>
 				</section>	
 				<section data-transition="fast">
 					<h2>Lab 3 - Playing with Kitchen</h2>
 					<script type="text/javascript" src="https://asciinema.org/a/5mpwy1tqfq6b5vuacm67qsteo.js" id="asciicast-5mpwy1tqfq6b5vuacm67qsteo" data-speed="1.5" data-theme="tango" async></script>
+					<smal>						
+						<a href="http://kitchen.ci/docs/getting-started/running-converge" target="_blank">running converge</a>
+					</small>					
 				</section>	
 				<section data-transition="fast">
-					<h2>Lab 4 - BDD: Defining our acceptance tests</h2>
+					<h2>Lab 4 - Acceptance tests</h2>
 					<script type="text/javascript" src="https://asciinema.org/a/ed9cpn9p2gbj1ne4hwtneu92l.js" id="asciicast-ed9cpn9p2gbj1ne4hwtneu92l" data-speed="1.5" data-theme="tango" async></script>
+					<smal>
+						<a href="https://gist.github.com/nandotorres/64530639b83fd1cad9864a924d9b01af" target="_blank">gist</a> |
+						<a href="http://kitchen.ci/" target="_blank">kitchen.ci</a> |
+						<a href="https://github.com/test-kitchen/kitchen-docker" target="_blank">kitchen-docker</a>
+					</small>
 				</section>
 				<section data-transition="fast">
 					<h2>Lab 5 - Playing with chefSpec</h2>
-					<script type="text/javascript" src="https://asciinema.org/a/17j70pd3ptwhnfgalqqyau3gd.js" id="asciicast-17j70pd3ptwhnfgalqqyau3gd" data-speed="1.5" data-theme="tango" async></script>
+					<script type="text/javascript" src="https://asciinema.org/a/17j70pd3ptwhnfgalqqyau3gd.js" id="asciicast-17j70pd3ptwhnfgalqqyau3gd" data-speed="2" data-theme="tango" async></script>
 				</section>
 				<section data-transition="fast">
 					<h2>Cooking a Docker host</h2>					
@@ -110,23 +135,55 @@
 							</ul>
 						</li>
 						<li>
-							Run the ToDo App container (nandotorres/mean-todo)
-							<ul>
-								<li><code>docker run -d -p 80:3000 --restart=always nandotorres/mean-todo</code></li>
-							</ul>
-						</li>
-						<li>
 							Restart Docker service
 							<ul>
 								<li><code>service docker restart</code></li>
 							</ul>							
 						</li>						
+						<li>
+							Run the ToDo App container (nandotorres/mean-todo)
+							<ul>
+								<li><code>docker run -d -p 80:3000 --restart=always nandotorres/mean-todo</code></li>
+							</ul>
+						</li>						
 					</ul>
 				</section>
 				<section data-transition="fast">
-					<h2>Lab 6 - TDD: Let's Fail And Fix</h2>
-					<script type="text/javascript" src="https://asciinema.org/a/17j70pd3ptwhnfgalqqyau3gd.js" id="asciicast-17j70pd3ptwhnfgalqqyau3gd" data-speed="1.5" data-theme="tango" async></script>
-				</section>																																																				
+					<h2>Lab 6 - TDD: Failling First</h2>
+					<script type="text/javascript" src="https://asciinema.org/a/24dmuj508sn8hsilu6git4gv4.js" id="asciicast-24dmuj508sn8hsilu6git4gv4" data-speed="1.5" data-theme="tango" async></script>
+					<small>
+						<a href="https://gist.github.com/nandotorres/36c18b5e020c2ac6db5aa8dc5d472149" target="_blank">gist</a> | 
+						<a href="https://docs.chef.io/chefspec.html" target="_blank">chefSpec</a>
+					</small>
+				</section>
+				<section data-transition="fast">
+					<h2>Lab 7 - Fix, Test, <strike>Refactory</strike></h2>
+					<script type="text/javascript" src="https://asciinema.org/a/1u0w9y1we9b0xlqwr58n3bwzn.js" id="asciicast-1u0w9y1we9b0xlqwr58n3bwzn" data-speed="1.5" data-theme="tango" async></script>
+					<small>
+						<a href="https://gist.github.com/nandotorres/7152b73a33feb4efa55319eeacf08b9a" target="_blank">gist</a> | 
+						<a href="https://docs.chef.io/resource.html" target="_blank">chef resources</a>
+					</small>
+				</section>
+				<section data-transition="fast">
+					<h2>Lab 8 - Quality: Foodcritic</h2>
+					<script type="text/javascript" src="https://asciinema.org/a/9hwxoseb5dpeqilh4651faas7" id="asciicast-9hwxoseb5dpeqilh4651faas7" data-speed="1.5" data-theme="tango" async></script>
+					<small> 
+						<a href="https://gist.github.com/nandotorres/af6c3b30e4c66eac146346f276639827" target="_blank">gist</a> | 
+						<a href="http://www.foodcritic.io/" target="_blank">foodcritic.io</a>
+					</small>
+				</section>
+				<section data-transition="fast">
+					<h2>Lab 9 - Quality: RuboCop</h2>
+					<script type="text/javascript" src="https://asciinema.org/a/5ytod6yvspqadnuzn1ux353ay" id="asciicast-5ytod6yvspqadnuzn1ux353ay" data-speed="1.5" data-theme="tango" async></script>
+					<small> 
+						<a href="https://gist.github.com/nandotorres/cf879af923c800f1ad6036e697a1f38d" target="_blank">gist</a> | 
+						<a href="http://rubocop.readthedocs.io/en/latest/" target="_blank">RuboCop</a>
+					</small>
+				</section>									
+				<section data-transition="fast">
+					<h2>Lab 10 - Run acceptance tests</h2>
+					<script type="text/javascript" src="https://asciinema.org/a/0o0kxn2c53xmbqcgpv56bhqpw" id="asciicast-0o0kxn2c53xmbqcgpv56bhqpw" data-speed="2.5" data-theme="tango" async></script>
+				</section>																																																										
 			</div>
 		</div>
 		<script src="lib/js/head.min.js"></script>
