@@ -1,0 +1,438 @@
+{
+  "title": null,
+  "version": 1,
+  "duration": 19.891983,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "height": 32,
+  "width": 161,
+  "stdout": [
+    [
+      0.157694,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                \r \r"
+    ],
+    [
+      0.000148,
+      "\u001b]2;ftorres@ac-ftorres-mac: ~/repos/devops\u0007\u001b]1;~/repos/devops\u0007"
+    ],
+    [
+      0.013637,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mdevops\u001b[00m \u001b[K"
+    ],
+    [
+      0.000128,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      3e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.988584,
+      "c"
+    ],
+    [
+      0.111167,
+      "\bch"
+    ],
+    [
+      0.127935,
+      "e"
+    ],
+    [
+      0.143871,
+      "f"
+    ],
+    [
+      0.112305,
+      " "
+    ],
+    [
+      0.303929,
+      "g"
+    ],
+    [
+      0.159704,
+      "e"
+    ],
+    [
+      0.144179,
+      "n"
+    ],
+    [
+      0.088035,
+      "e"
+    ],
+    [
+      0.144002,
+      "r"
+    ],
+    [
+      0.14403,
+      "a"
+    ],
+    [
+      0.167954,
+      "t"
+    ],
+    [
+      0.080091,
+      "e"
+    ],
+    [
+      0.21577,
+      " "
+    ],
+    [
+      0.168142,
+      "c"
+    ],
+    [
+      0.208072,
+      "o"
+    ],
+    [
+      0.135756,
+      "o"
+    ],
+    [
+      0.07209,
+      "k"
+    ],
+    [
+      0.240051,
+      "b"
+    ],
+    [
+      0.176001,
+      "o"
+    ],
+    [
+      0.136048,
+      "o"
+    ],
+    [
+      0.104092,
+      "k"
+    ],
+    [
+      0.191902,
+      " "
+    ],
+    [
+      0.135979,
+      "t"
+    ],
+    [
+      0.088228,
+      "e"
+    ],
+    [
+      0.255805,
+      "c"
+    ],
+    [
+      0.119988,
+      "h"
+    ],
+    [
+      0.304149,
+      "t"
+    ],
+    [
+      0.095958,
+      "a"
+    ],
+    [
+      0.791889,
+      "l"
+    ],
+    [
+      0.23206,
+      "k"
+    ],
+    [
+      0.447875,
+      " "
+    ],
+    [
+      0.624793,
+      "&"
+    ],
+    [
+      0.135754,
+      "&"
+    ],
+    [
+      0.119605,
+      " "
+    ],
+    [
+      0.656078,
+      "c"
+    ],
+    [
+      0.192069,
+      "d"
+    ],
+    [
+      0.175845,
+      " "
+    ],
+    [
+      0.632077,
+      "t"
+    ],
+    [
+      0.05616,
+      "e"
+    ],
+    [
+      0.255929,
+      "c"
+    ],
+    [
+      0.15993,
+      "h"
+    ],
+    [
+      0.448122,
+      "t"
+    ],
+    [
+      0.120029,
+      "a"
+    ],
+    [
+      0.48814,
+      "l"
+    ],
+    [
+      0.223827,
+      "k"
+    ],
+    [
+      0.752061,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      3.2e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.001175,
+      "\u001b]2;chef generate cookbook techtalk && cd techtalk\u0007\u001b]1;chef\u0007"
+    ],
+    [
+      1.149765,
+      "Generating cookbook techtalk\r\n"
+    ],
+    [
+      0.339885,
+      "- Ensuring correct cookbook file content\u001b[0m\r\n"
+    ],
+    [
+      0.087998,
+      "- Committing cookbook files to git\u001b[0m\r\n"
+    ],
+    [
+      0.085511,
+      "- Ensuring delivery configuration\u001b[0m\r\n"
+    ],
+    [
+      0.008468,
+      "- Ensuring correct delivery build cookbook content\u001b[0m\r\n"
+    ],
+    [
+      0.051732,
+      "- Adding delivery configuration to feature branch\u001b[0m\r\n"
+    ],
+    [
+      0.179615,
+      "- Adding build cookbook to feature branch\u001b[0m\r\n"
+    ],
+    [
+      0.121491,
+      "- Merging delivery content feature branch to master\u001b[0m\r\n"
+    ],
+    [
+      0.053976,
+      "\r\n"
+    ],
+    [
+      0.000803,
+      "Your cookbook is ready. Type `cd techtalk` to enter it.\r\n\r\nThere are several commands you can run to get started locally developing and testing your cookbook.\r\nType `delivery local --help` to see a full list.\r\n\r\nWhy not start by writing a test? Tests for the default recipe are stored at:\r\n\r\ntest/recipes/default_test.rb\r\n\r\nIf you'd prefer to dive right in, the default recipe can be found at:\r\n\r\nrecipes/default.rb\r\n\r\n"
+    ],
+    [
+      0.049296,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                \r \r"
+    ],
+    [
+      0.000111,
+      "\u001b]2;ftorres@ac-ftorres-mac: ~/repos/devops/techtalk\u0007"
+    ],
+    [
+      3.1e-05,
+      "\u001b]1;..vops/techtalk\u0007"
+    ],
+    [
+      0.025109,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mtechtalk\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m)\u001b[00m \u001b[K"
+    ],
+    [
+      4.2e-05,
+      "\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      1.851034,
+      "c"
+    ],
+    [
+      0.143866,
+      "\bcl"
+    ],
+    [
+      0.048307,
+      "e"
+    ],
+    [
+      0.111922,
+      "a"
+    ],
+    [
+      0.103888,
+      "r"
+    ],
+    [
+      0.176018,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      4e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.000847,
+      "\u001b]2;clear\u0007\u001b]1;clear\u0007"
+    ],
+    [
+      0.003724,
+      "\u001b[H\u001b[2J"
+    ],
+    [
+      0.000488,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                \r \r"
+    ],
+    [
+      0.000112,
+      "\u001b]2;ftorres@ac-ftorres-mac: ~/repos/devops/techtalk\u0007"
+    ],
+    [
+      3.2e-05,
+      "\u001b]1;..vops/techtalk\u0007"
+    ],
+    [
+      0.033291,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mtechtalk\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m)\u001b[00m \u001b[K"
+    ],
+    [
+      3.8e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      8.9e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.513504,
+      "t"
+    ],
+    [
+      0.207909,
+      "\btr"
+    ],
+    [
+      0.22383,
+      "e"
+    ],
+    [
+      0.136139,
+      "e"
+    ],
+    [
+      0.792049,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      3.5e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.00092,
+      "\u001b]2;tree\u0007\u001b]1;tree\u0007"
+    ],
+    [
+      0.004346,
+      ".\r\n├── Berksfile\r\n├── README.md\r\n├── chefignore\r\n├── metadata.rb\r\n"
+    ],
+    [
+      4.4e-05,
+      "├── recipes\r\n│   └── default.rb\r\n"
+    ],
+    [
+      3.3e-05,
+      "├── spec\r\n│   ├── spec_helper.rb\r\n"
+    ],
+    [
+      6.1e-05,
+      "│   └── unit\r\n"
+    ],
+    [
+      3.4e-05,
+      "│       └── recipes\r\n│           └── default_spec.rb\r\n"
+    ],
+    [
+      4.9e-05,
+      "└── test\r\n"
+    ],
+    [
+      2.7e-05,
+      "    └── recipes\r\n        └── default_test.rb\r\n\r\n"
+    ],
+    [
+      1.9e-05,
+      "6 directories, 8 files\r\n"
+    ],
+    [
+      0.000513,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                \r \r"
+    ],
+    [
+      0.00012,
+      "\u001b]2;ftorres@ac-ftorres-mac: ~/repos/devops/techtalk\u0007"
+    ],
+    [
+      2.4e-05,
+      "\u001b]1;..vops/techtalk\u0007"
+    ],
+    [
+      0.036954,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mtechtalk\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m)\u001b[00m \u001b[K"
+    ],
+    [
+      6e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      7.7e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      1.276217,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ],
+  "command": null
+}

@@ -7,10 +7,11 @@
 		<title>Infrastructure as Code</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/moon.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="lib/css/customs.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -24,16 +25,19 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-transition="slide">
+				<section data-transition="fast">
 					<h2 id="page-title">Infrastructure as Code</h2>
 					<h3>From Zero to Production</h3>
 				</section>
-				<section data-transition="slide">
+				<section data-transition="fast">
 					<h2>Presenter</h2>
 					<h3>Fernando Torres</h3>
 					<p>ftorres@avenuecode.com</p>
 				</section>
-				<section data-transition="slide">
+				<section data-transition="fast">
+					<h2>Audience</h2>
+				</section>				
+				<section data-transition="fast">
 					<h2>Immutable Infrastructure</h2>
 					<p>
 						Once you instantiate something,	you never change it. 
@@ -41,16 +45,88 @@
 						ensure proper behavior
 					</p>
 				</section>
-				<section>
-					<h2>Tools Used in This Demo</h2>
+				<section data-transition="fast">
+					<h2>How to Achieve It</h2>
 					<ul>
-						<li>Automated Infrastructure Tool <span class="fragment fade-in"><mark>Chef</mark></span></li>
-						<li>Code Versioning <span class="fragment fade-in">Git</span></li>
-						<li>Repository and CI Pipeline <span class="fragment fade-in">GitLab</span></li>
-						<li>Image Building and Deployment <span class="fragment fade-in">GitLab</span></li>
-						<li>
+						<li>Automated Infrastructure Tools</li>						
+						<li>Automated Build Pipeline</li>
+						<li>Automated Delivery Pipeline</li>
+						<li>Code Versioning</li>
 					</ul>
-				</section>																							
+				</section>
+				<section data-transition="fast">
+					<h2>Labs</h2>
+				</section>					
+				<section data-transition="fast">
+					<h2>Pre-requirements</h2>
+					<h3>Chef Development Kit</h3>
+					<img data-src="lib/img/chef.png" class="img-noborder" height="100">
+					<img data-src="lib/img/foodcritic.png" class="img-noborder" height="100">
+					<img data-src="lib/img/rspec.png" class="img-noborder" height="100">
+					<img data-src="lib/img/inspec.png" class="img-noborder" height="100">
+					<img data-src="lib/img/kitchen.png" class="img-noborder" height="100">
+					<h5><a href="https://downloads.chef.io/chefdk">https://downloads.chef.io/chefdk</a></h5>
+				</section>
+				<section data-transition="fast">
+					<h2>Pre-requirements</h2>
+					<h3>Docker Engine</h3>
+					<img data-src="lib/img/con_docker.png" class="img-noborder" height="100">
+					<h5><a href="https://docs.docker.com/engine/installation/">https://docs.docker.com/engine/installation/</a></h5>
+					<p>Or just</p>
+					<code>curl -sSL https://get.docker.com/ | sh</code>
+				</section>							
+				<section data-transition="fast">
+					<h2>Lab 0 - Defining the scope</h2>
+					<video controls="controls" name="Video Name" src="lib/movies/todo-app-localhost.mov" height="525"></video>					
+				</section>				
+				<section data-transition="fast">
+					<h2>Lab 1 - Creating a Cookbook</h2>
+					<script type="text/javascript" src="https://asciinema.org/a/dr7n3z5nh2ehtcsq3ts34jm16.js" id="asciicast-dr7n3z5nh2ehtcsq3ts34jm16" data-speed="1.5" data-theme="tango" async></script>
+				</section>
+				<section data-transition="fast">
+					<h2>Lab 2 - Configuring the Kitchen</h2>
+					<script type="text/javascript" src="https://asciinema.org/a/86djtrjnkjkhs60m028zty76z.js" id="asciicast-86djtrjnkjkhs60m028zty76z" data-speed="1.5" data-theme="tango" async></script>
+				</section>	
+				<section data-transition="fast">
+					<h2>Lab 3 - Playing with Kitchen</h2>
+					<script type="text/javascript" src="https://asciinema.org/a/5mpwy1tqfq6b5vuacm67qsteo.js" id="asciicast-5mpwy1tqfq6b5vuacm67qsteo" data-speed="1.5" data-theme="tango" async></script>
+				</section>	
+				<section data-transition="fast">
+					<h2>Lab 4 - BDD: Defining our acceptance tests</h2>
+					<script type="text/javascript" src="https://asciinema.org/a/ed9cpn9p2gbj1ne4hwtneu92l.js" id="asciicast-ed9cpn9p2gbj1ne4hwtneu92l" data-speed="1.5" data-theme="tango" async></script>
+				</section>
+				<section data-transition="fast">
+					<h2>Lab 5 - Playing with chefSpec</h2>
+					<script type="text/javascript" src="https://asciinema.org/a/17j70pd3ptwhnfgalqqyau3gd.js" id="asciicast-17j70pd3ptwhnfgalqqyau3gd" data-speed="1.5" data-theme="tango" async></script>
+				</section>
+				<section data-transition="fast">
+					<h2>Cooking a Docker host</h2>					
+					<ul>
+						Recipe
+						<li>
+							Install Docker engine
+							<ul>
+								<li><code>curl -sSL https://get.docker.com/ | sh</code></li>
+							</ul>
+						</li>
+						<li>
+							Run the ToDo App container (nandotorres/mean-todo)
+							<ul>
+								<li><code>docker run -d -p 80:3000 --restart=always nandotorres/mean-todo</code></li>
+							</ul>
+						</li>
+						<li>
+							Restart Docker service
+							<ul>
+								<li><code>service docker restart</code></li>
+							</ul>							
+						</li>						
+					</ul>
+				</section>
+				<section data-transition="fast">
+					<h2>Lab 6 - TDD: Let's Fail And Fix</h2>
+					<script type="text/javascript" src="https://asciinema.org/a/17j70pd3ptwhnfgalqqyau3gd.js" id="asciicast-17j70pd3ptwhnfgalqqyau3gd" data-speed="1.5" data-theme="tango" async></script>
+				</section>																																																				
 			</div>
 		</div>
 		<script src="lib/js/head.min.js"></script>
